@@ -89,10 +89,13 @@ scaleView.setMaxWidth(175)
 Resolution is computed using the standard Google Maps / OSM tile formula:
 
 ```
-resolution = (40_075_016 m / 256 / density) x cos(latitude) / 2^zoom
+resolution (m/pt) = (40_075_016 m / 256) x cos(latitude) / 2^zoom
 ```
 
-The scale bar snaps to the largest human-friendly distance (1, 2, 5, 10, 20, 50 ... 1 000 000) that fits within `maxWidth`.
+The scale bar snaps to the largest human-friendly distance that fits within `maxWidth`:
+
+- Metric: 1, 2, 5 ... 500 m, then 1, 2, 5 ... 1 000 km
+- Imperial: 1, 2, 5 ... 2 000 ft, then 1, 2, 5 ... 1 000 mi
 
 ## Requirements
 

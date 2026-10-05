@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MapScaleView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Map scale bar view for iOS — mirrors the Android pengrad/mapscaleview library.'
   s.description      = <<-DESC
     MapScaleView displays an accurate map scale bar (metric and/or imperial) on any iOS map.

@@ -20,7 +20,6 @@ import UIKit
 
     private var config = ViewConfig()
     private var mode: UnitMode = .metersAndMiles
-    private var density: CGFloat { UIScreen.main.scale }
 
     // MARK: - State
 
@@ -53,7 +52,6 @@ import UIKit
             zoom: zoom,
             latitude: latitude,
             maxWidth: config.maxWidth,
-            density: density,
             mode: mode
         )
         if let scales = currentScales {
