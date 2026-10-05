@@ -18,7 +18,7 @@ Works with any map SDK (Google Maps, MapKit, Mapbox, etc.) that exposes zoom lev
 
 ```swift
 // Package.swift
-.package(url: "https://github.com/yzhao-ca/MapScaleView-iOS.git", from: "1.0.0")
+.package(url: "https://github.com/foolzz/MapScaleView-iOS.git", from: "1.0.1")
 ```
 
 Or in Xcode: **File > Add Package Dependencies** and enter the repo URL.
@@ -26,7 +26,7 @@ Or in Xcode: **File > Add Package Dependencies** and enter the repo URL.
 ### CocoaPods
 
 ```ruby
-pod 'MapScaleView', '~> 1.0'
+pod 'MapScaleView-iOS', '~> 1.0.1'
 ```
 
 ## Usage
